@@ -1,0 +1,90 @@
+    1  clear
+    2  history
+    3  mkdir lol lol
+    4  ls
+    5  rmdir lol/
+    6  mkdir lol\ lol
+    7  ls
+    8  mkdir "ha ha"
+    9  ls
+   10  #xxxx
+   11  ls
+   12  history
+   13  #spaces
+   14  #absolute path
+   15  cd
+   16  cd ..
+   17  pwd
+   18  cd /home/aluno/Área\ de\ Trabalho/class03/ha\ ha/
+   19  cd
+   20  cd ..
+   21  ls -la
+   22  mv lol\ lol/ ha\ ha/
+   23  ls
+   24  cp ha\ ha/
+   25  man cp
+   26  cp ha\ ha/ ~/Área\ de\ Trabalho/class03/
+   27  ls
+   28  mv ha\ ha/ ha\ haaa/
+   29  ls
+   30  cp ha\ ha/ ~/Área\ de\ Trabalho/
+   31  cp ha\ haaa/ ~/Área\ de\ Trabalho/
+   32  cd ..
+   33  ls -la
+   34  cd class03/
+   35  ls
+   36  rmdir ha\ haaa/
+   37  man dir
+   38  man rmdir
+   39  rmdir ha\ haaa/ -
+   40  cd .
+   41  cd ..
+   42  ls .
+   43  ls ..
+   44  # . :dir and ..: prevs. dir
+   45  ls
+   46  cd class03/
+   47  ls
+   48  rm -r ha\ haaa/
+   49  ls
+   50  touch kkk.txt
+   51  ls
+   52  shred kkk.txt 
+   53  ls
+   54  vim kkk.txt
+   55  shred kkk.txt 
+   56  vim kkk.txt
+   57  vim x.txt
+   58  vim y.txt
+   59  ls
+   60  ln x.txt y.txt
+   61  ls
+   62  ls -la
+   63  ls
+   64  ln -s x.txt z.txt
+   65  ls -la 
+   66  #above: links. hard and symbolic 
+   67  mkdir tolink
+   68  mkdir linque 
+   69  ln -s tolink linque
+   70  ls
+   71  ls -la
+   72  mkdir tolink/linkkk
+   73  cd linque/
+   74  ls
+   75  tolink
+   76  cd ..
+   77  ls
+   78  ln tolink/ trying
+   79  ln -s tolink/ trying
+   80  ls
+   81  rm -r linque/
+   82  ls -la
+   83  cd trying
+   84  ls
+   85  cd ..
+   86  id
+   87  /etc/shadow
+   88  /etc/group
+   89  #sudo su
+   90  history >> history.txt
