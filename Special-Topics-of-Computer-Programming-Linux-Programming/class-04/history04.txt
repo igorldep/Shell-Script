@@ -1,0 +1,131 @@
+
+  300  clear
+  301  id
+  302  ls
+  303  ls -la
+  304  #Permissões
+  305  ls -la
+  306  # - rw- rw- r--
+  307  ls
+  308  tty
+  309  ls -al /tmp/
+  310  ls
+  311  cd Área\ de\ Trabalho/
+  312  ls
+  313  mkdir class-04
+  314  cd class-04/
+  315  touch eg.txt
+  316  ls -la
+  317  chmod +x eg.txt 
+  318  ls -la
+  319  sudo touch byroot.txt
+  320  ls -la
+  321  echo oi >> byroot.txt 
+  322  chmod +x byroot.txt
+  323  ls -la
+  324  cp byroot.txt byuser.txt
+  325  ls -la
+  326  chmod 
+  327  chmod +x byuser.txt 
+  328  ls -la
+  329  vim byroot.txt
+  330  sudo mkdir dirroot
+  331  ls -la
+  332  cd dirroot/
+  333  cd ..
+  334  mkdir diruser
+  335  ls -la
+  336  cd dirroot
+  337  touch hello.txt
+  338  cd ..
+  339  ls -la /dirroot
+  340  ls -la dirroot
+  341  #change mode chmod
+  342  touch foo.txt
+  343  chmod 600 foo.txt 
+  344  ls -la
+  345  chmod 124 foo.txt 
+  346  ls -la
+  347  > fooo.txt
+  348  ls -la
+  349  chmod u +x fooo.txt 
+  350  chmod u+x fooo.txt 
+  351  ls -la
+  352  ls -al
+  353  chmod 800 fooo.txt 
+  354  chmod 700 fooo.txt 
+  355  ls -al
+  356  chmod 000 fooo.txt 
+  357  vim fooo.txt 
+  358  ls -la
+  359  vim fooo.txt 
+  360  ls -tla
+  361  ls -la
+  362  umaask
+  363  umask
+  364  chmod a+x fooo.txt 
+  365  ls -la
+  366  chmod a+rwx fooo.txt 
+  367  ls -la
+  368  umask
+  369  ls -la
+  370  > fooo.txt 
+  371  ls -ka
+  372  ls -la
+  373  umask 0777 
+  374  umask
+  375  q
+  376  touch haha.txt
+  377  ls -la
+  378  #umask: mascara padrão. subtrai o valor da umask do valor de criação padrão
+  379  clear
+  380  # umask: 0 000: first 0->permissão especial
+  381  clear
+  382  umask 4700
+  383  umask octal 4700
+  384  umask octal 4000
+  385  umask 4000
+  386  ls -la
+  387  chmod 400 haha.txt
+  388  ls -la
+  389  chmod 4000 haha.txt
+  390  ls -la
+  391  chmod 4700 haha.txt
+  392  ls -la
+  393  #SUID(setuserID):Quandoumarquivocomsetuidéexecutado,o
+  394  processoresultanteiráassumiroidenAficadorefeAvododonodo
+  395  clear
+  396  umas 0002
+  397  umask 0002
+  398  mkdir stickybit ; chmod +t dir
+  399  mkdir stickybit ; chmod +t stickybit/
+  400  chmod +t stickybit/
+  401  ls -la
+  402  cd stickybit/
+  403  touch test.txt
+  404  rm test.txt 
+  405  cd ..
+  406  sudo chmod +t stickybit/
+  407  cd stickybit/
+  408  touch test.txt
+  409  rm test.txt 
+  410  touch test.txt
+  411  sudo chmod 1777
+  412  sudo chmod 1777 test.txt 
+  413  ls -la
+  414  mkdir haaa
+  415  rm test.txt 
+  416  rmdir haaa/
+  417  sudo mkdir haa
+  418  ls -la
+  419  sudo chmod 1777 haa
+  420  cd haa/
+  421  touch hihi.txt
+  422  rm hihi.txt 
+  423  ls
+  424  cd ..
+  425  rmdir haa/
+  426  #basename, dirname, gzip, gunzip, tar, split, shred, cksum, md5sum, dd, lsoft, fuser
+  427  clear
+  428  cd ..
+  429  history >> history04.txt
