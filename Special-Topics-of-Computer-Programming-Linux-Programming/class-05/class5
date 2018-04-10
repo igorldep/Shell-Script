@@ -1,0 +1,84 @@
+  600  --------------------------
+  601  history
+  602  clear
+  603  #S.O. is multitasking
+  604  #Process
+  605  #Linux gerencia os diferentes programas esperando sua vez para usar a CPU
+  606  #examinar/terminar processos
+  607  #ps, top, jobs, bg, fg, kill, killall
+  608  #init: scripts de inicialização
+  609  #daemons
+  610  #parent process -> child process
+  611  # PID: process ID
+  612  # ps situação instantânea dos processos atuais
+  613  ps
+  614  # ps só desse terminal
+  615  #ps x todos
+  616  ps x
+  617  pg x less
+  618  ps x less
+  619  ps aux
+  620  #top visão dinâmica
+  621  top
+  622  xlogo
+  623  wlogo
+  624  xlogo
+  625  x logo &
+  626  xlogo &
+  627  #job control
+  628  #num do processo e PID
+  629  xlog
+  630  sudo apt install xlogo
+  631  xlogo
+  632  xlogo &
+  633  ps
+  634  jobs
+  635  fg 1
+  636  xlogo
+  637  fg
+  638  xlogo
+  639  bg 1
+  640  fg 1
+  641  bg 1
+  642  fg 1
+  647  xlogo &
+  648  kil 15702
+  649  kill 15702
+  650  xlogo &
+  651  kill 15729
+  652  man kill
+  653  xlogo
+  654  xlogo &
+  655  fg 1
+  656  xlogo &
+  657  kill KILL 15906
+  658  xlogo &
+  659  kill KILL 1
+  660  kill KILL 4
+  661  xlogo &
+  662  kill -1 15965
+  663  xlogo &
+  664  nohup xlogo &
+  665  kill KILL 15967
+  666  kill KILL 15973
+  667  kill -l
+  668  xlogo &
+  669  kill -INT 16023
+  670  xlogo &
+  671  kill -SIGINT 16031
+  672  xlogo &
+  673  killall xlogo
+  674  ps
+  675  pstree
+  676  vmstat
+  677  vmstat 5
+  678  xload
+  679  xload &
+  680  tload &
+  681  tload
+  682  ps
+  683  history
+  684  killall xload
+  685  history | >> ~/Área de Trabalho/aula04
+  686  history | >> ~/Área\ de\ Trabalho/aula04
+  687  history > aula04
