@@ -1,0 +1,772 @@
+    1  sudo apt-get install freeglut3
+    2  sudo apt-get install freeglut3 --fix-missing
+    3  sudo apt-get update
+    4  ping 8.8.8.8
+    5  ifconfig
+    6  sudo dhclient
+    7  ifconfig
+    8  sudo apt-get update
+    9  sudo apt-get install freeglut3 --fix-missing
+   10  sudo apt-cache search glew
+   11  sudo apt-get install libglew-dev
+   12  ls
+   13  cd Downloads/
+   14  ls
+   15  cd eclipse-installer/
+   16  ls
+   17  sudo ./eclipse-inst 
+   18  ./eclipse-inst 
+   19  sudo ./eclipse-inst 
+   20  eclipse
+   21  sudo apt install eclipse-platfrm
+   22  sudo apt install eclipse-platform
+   23  ls
+   24  cd Downloads/
+   25  ls
+   26  cd Catapults-master/
+   27  ls
+   28  make
+   29  sudo apt-cache search freeglut
+   30  sudo apt-get install freeglut3-dev
+   31  make
+   32  ./catapults.out 
+   33  sudo apt-get install openssh-server
+   34  sudo vim /etc/ssh/sshd_config 
+   35  service ssh restart
+   36  histor
+   37  history
+   38  sudo apt-get install git
+   39  ls
+   40  cd Downloads/
+   41  ls
+   42  sudo dpkg -i code_1.17.2-1508162334_amd64.deb 
+   43  sudo dpkg -i atom-amd64.deb 
+   44  sudo apt-get update
+   45  sudo apt-get install scilab
+   46  ls
+   47  sudo dpkg -i mysql-workbench-community-6.3.9-1ubuntu16.04-amd64.deb 
+   48  sudo apt-get -f install
+   49  sudo add-apt-repository ppa:damien-moore/codeblocks-stable
+   50  sudo apt-get update
+   51  sudo apt-get install codeblocks
+   52  ls
+   53  chmod +x netbeans-8.2-linux.sh 
+   54  sudo ./netbeans-8.2-linux.sh 
+   55  sudo apt-get install openjdk
+   56  sudo apt-cache search jdk
+   57  sudo apt-get install default-jdk
+   58  sudo ./netbeans-8.2-linux.sh 
+   59  sudo apt-cache search soil
+   60  sudo apt-get install lib-soil-dev
+   61  sudo apt-get install libsoil-dev
+   62  sudo apt-cache search sdl
+   63  sudo apt-cache search libsdl
+   64  sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-gfx1.2-dev libsdl-sound1.2-dev libsdl-mixer1.2-dev
+   65  ls
+   66  cd arduino-1.8.5/
+   67  ls
+   68  sudo ./install.sh 
+   69  cd ~/Área\ de\ Trabalho/
+   70  ls
+   71  vim arduino-arduinoide.desktop 
+   72  sudo apt-get install vim
+   73  ls
+   74  vim arduino-arduinoide.desktop 
+   75  sudo vim arduino-arduinoide.desktop 
+   76  ls
+   77  cd ~/Downloads/
+   78  ls
+   79  sudo mv arduino-1.8.52222/ /etc/arduino
+   80  cd /etc/arduino/
+   81  ls
+   82  sudo ./install.sh 
+   83  ls
+   84  cd Downloads/
+   85  ls
+   86  sudo rm -rf arduino-1.8.5-linux64.tar.xz 
+   87  sudo rm -rf atom-amd64.deb 
+   88  sudo rm -rf Catapults-master
+   89  sudo rm -rf scilab-6.0.0
+   90  sudo rm -rf eclipse-inst
+   91  sudo rm *
+   92  sudo rm -rf eclipse-installer/
+   93  sudo vim /etc/fstab
+   94  sudo mkdir /mnt/win
+   95  cd /mnt
+   96  ls
+   97  cd rec
+   98  ls
+   99  cd ..
+  100  sudo vim /etc/fstab
+  101  ls
+  102  sudo login ntic
+  103  sudo apt-get install libjava3d-java
+  104  ls
+  105  cd My\ Open\ Lab/
+  106  chmod +x start_linux 
+  107  ./start_linux 
+  108  sudo apt-get install libjava3d-java
+  109  ./start_linux 
+  110  cd ..
+  111  cd MyOpenLab/
+  112  ./start_linux 
+  113  sudo apt-get install libjava3d-java
+  114  cp /usr/share/java/j3d* /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/
+  115  sudo cp /usr/share/java/j3d* /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/
+  116  sudo cp /usr/share/java/j3d* /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/
+  117  ./start_linux 
+  118  sudo apt-get install openjdk-8-jdk
+  119  sudo apt-get install libjava3d-java
+  120  sudo cp /usr/share/java/vecmath-* /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/
+  121  sudo cp /usr/share/java/vecmath-* /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/
+  122  cd MyOpenLab/
+  123  ./start_linux 
+  124  ls
+  125  cd MyOpenLab/
+  126  ./start_linux 
+  127  ls
+  128  sudo login ntic
+  129  cd /etc/ideaC/
+  130  ls
+  131  cd bin/
+  132  ls
+  133  ./idea.sh 
+  134  sudo login ntic
+  135  p
+  136  pd
+  137  ps
+  138  
+  139  clear
+  140  uname -a
+  141  echo 't
+  142  ate'
+  143  info
+  144  man
+  145  info --help
+  146  echo --help
+  147  echo test
+  148  echo test'
+  149  test
+  150  '
+  151  ls --help
+  152  man ls
+  153  man 1
+  154  info 1
+  155  clear
+  156  man elf
+  157  man printf
+  158  man 5
+  159  man 5 printf
+  160  man man
+  161  apropos man
+  162  ls
+  163  man ls
+  164  ls -l
+  165  ls -la
+  166  ls -la man9
+  167  clar
+  168  clear
+  169  clr
+  170  cler
+  171  clar
+  172  clear
+  173  ls -all
+  174  11H;7~
+  175  clear
+  176  ls -l -lh
+  177  ls -lh
+  178  ls -l -h
+  179  ls -h
+  180  ls -l
+  181  ls -l -h
+  182  clear
+  183  pwd
+  184  cd downloads
+  185  ls
+  186  cd Downloads
+  187  pwd
+  188  ls
+  189  cd WhatsApp Image
+  190  cd WhatsApp
+  191  man cd
+  192  cd -help
+  193  help cd
+  194  ls -L
+  195  cd..
+  196  cd
+  197  cd Documentos
+  198  ls
+  199  ls -d
+  200  cd
+  201  cd Imagens
+  202  cd Wallpapers
+  203  cd
+  204  cd Imagens/Wallpapers
+  205  cd..
+  206  cd -help
+  207  cd ..
+  208  cd etc
+  209  clear
+  210  cd c:
+  211  cd c
+  212  cd c:\
+  213  cd ..
+  214  cd etc
+  215  cd ..
+  216  cd c:/
+  217  help cd
+  218  cd home
+  219  cd aluno
+  220  ls
+  221  cd /
+  222  pwd
+  223  ls
+  224  cd /home
+  225  cd d/
+  226  cd aluno
+  227  cd .. ..
+  228  clear
+  229  cd -
+  230  pwd
+  231  clear
+  232  asd
+  233  man cd
+  234  uname -a
+  235  clear
+  236  tree
+  237  tree -d
+  238  sudo apt install tree
+  239  apt-get update
+  240  apt-get update --fix-missing
+  241  clear
+  242  which ls
+  243  whereis ls
+  244  man locale
+  245  locale
+  246  nano
+  247  ls
+  248  mkdir lpss
+  249  cd lpss
+  250  nano
+  251  ls
+  252  nano ShoppingList 
+  253  ls
+  254  remove ShoppingList
+  255  rm ShoppingList
+  256  ls
+  257  nano ShoppingList.txt 
+  258  vim
+  259  emac
+  260  emacs
+  261  sudo apt-get install emacs24
+  262  emacs
+  263  emacs shoppinglist.txt
+  264  cat ShoppingList.txt 
+  265  ls
+  266  cat ShoppingList.txt 
+  267  sed"s/Cheese/Nachos/" ShoppingList.txt
+  268  cat ShoppingList.txt 
+  269  sed"s/Cheese/Nachos/" ShoppingList.txt
+  270  sed"s/Tacos/Nachos/" ShoppingList.txt
+  271  sed "s/Tacos/Nachos/" ShoppingList.txt
+  272  sed "s/Nachos/Tacos/" ShoppingList.txt
+  273  sed "s/e/Nachos/g" ShoppingList.txt
+  274  nano ShoppingList.txt 
+  275  sed "s/e/E/" ShoppingList.txt
+  276  sed "s/e/E/g" ShoppingList.txt
+  277  sed "s/E/e/g" ShoppingList.txt
+  278  -i sed "s/E/e/g" ShoppingList.txt
+  279  sed -i "s/E/e/g" ShoppingList.txt
+  280  cat ShoppingList.txt
+  281  sed -i "s/e/E/g" ShoppingList.txt
+  282  cat ShoppingList.txt
+  283  sed -i "s/E/e/g" ShoppingList.txt
+  284  cat ShoppingList.txt
+  285  sed -i "s/e/E/" ShoppingList.txt
+  286  cat ShoppingList.txt
+  287  sed -i "s/ChEese/Cheese/" ShoppingList.txt
+  288  cat ShoppingList.txt 
+  289  tac ShoppingList.txt 
+  290  wc ShoppingList.txt 
+  291  gedit ShoppingList.txt 
+  292  wc ShoppingList.txt 
+  293  cat ShoppingList.txt 
+  294  tac ShoppingList.txt 
+  295  quit
+  296  sudo su
+  297  sudo apt update
+  298  sudo apt upgrade
+  299  sudo whereis syslog
+  300  clear
+  301  id
+  302  history
+  303  ls
+  304  ls -la
+  305  #Permissões
+  306  ls -la
+  307  # - rw- rw- r--
+  308  ls
+  309  tty
+  310  ls -al /tmp/
+  311  ls
+  312  cd Área\ de\ Trabalho/
+  313  ls
+  314  mkdir class-04
+  315  cd class-04/
+  316  touch eg.txt
+  317  ls -la
+  318  chmod +x eg.txt 
+  319  ls -la
+  320  sudo touch byroot.txt
+  321  ls -la
+  322  echo oi >> byroot.txt 
+  323  chmod +x byroot.txt
+  324  ls -la
+  325  cp byroot.txt byuser.txt
+  326  ls -la
+  327  chmod 
+  328  chmod +x byuser.txt 
+  329  ls -la
+  330  vim byroot.txt
+  331  sudo mkdir dirroot
+  332  ls -la
+  333  cd dirroot/
+  334  cd ..
+  335  mkdir diruser
+  336  ls -la
+  337  cd dirroot
+  338  touch hello.txt
+  339  cd ..
+  340  ls -la /dirroot
+  341  ls -la dirroot
+  342  #change mode chmod
+  343  touch foo.txt
+  344  chmod 600 foo.txt 
+  345  ls -la
+  346  chmod 124 foo.txt 
+  347  ls -la
+  348  > fooo.txt
+  349  ls -la
+  350  chmod u +x fooo.txt 
+  351  chmod u+x fooo.txt 
+  352  ls -la
+  353  ls -al
+  354  chmod 800 fooo.txt 
+  355  chmod 700 fooo.txt 
+  356  ls -al
+  357  chmod 000 fooo.txt 
+  358  vim fooo.txt 
+  359  ls -la
+  360  vim fooo.txt 
+  361  ls -tla
+  362  ls -la
+  363  umaask
+  364  umask
+  365  chmod a+x fooo.txt 
+  366  ls -la
+  367  chmod a+rwx fooo.txt 
+  368  ls -la
+  369  umask
+  370  ls -la
+  371  > fooo.txt 
+  372  ls -ka
+  373  ls -la
+  374  umask 0777 
+  375  umask
+  376  q
+  377  touch haha.txt
+  378  ls -la
+  379  #umask: mascara padrão. subtrai o valor da umask do valor de criação padrão
+  380  clear
+  381  # umask: 0 000: first 0->permissão especial
+  382  clear
+  383  umask 4700
+  384  umask octal 4700
+  385  umask octal 4000
+  386  umask 4000
+  387  ls -la
+  388  chmod 400 haha.txt
+  389  ls -la
+  390  chmod 4000 haha.txt
+  391  ls -la
+  392  chmod 4700 haha.txt
+  393  ls -la
+  394  #SUID(setuserID):Quandoumarquivocomsetuidéexecutado,o
+  395  processoresultanteiráassumiroidenAficadorefeAvododonodo
+  396  clear
+  397  umas 0002
+  398  umask 0002
+  399  mkdir stickybit ; chmod +t dir
+  400  mkdir stickybit ; chmod +t stickybit/
+  401  chmod +t stickybit/
+  402  ls -la
+  403  cd stickybit/
+  404  touch test.txt
+  405  rm test.txt 
+  406  cd ..
+  407  sudo chmod +t stickybit/
+  408  cd stickybit/
+  409  touch test.txt
+  410  rm test.txt 
+  411  touch test.txt
+  412  sudo chmod 1777
+  413  sudo chmod 1777 test.txt 
+  414  ls -la
+  415  mkdir haaa
+  416  rm test.txt 
+  417  rmdir haaa/
+  418  sudo mkdir haa
+  419  ls -la
+  420  sudo chmod 1777 haa
+  421  cd haa/
+  422  touch hihi.txt
+  423  rm hihi.txt 
+  424  ls
+  425  cd ..
+  426  rmdir haa/
+  427  #basename, dirname, gzip, gunzip, tar, split, shred, cksum, md5sum, dd, lsoft, fuser
+  428  clear
+  429  cd ..
+  430  history >> history04.txt
+  431  cat history04.txt 
+  432  cd ..
+  433  ls
+  434  cd class-04/
+  435  git inti
+  436  git init 
+  437  clear
+  438  git add *
+  439  ls -la
+  440  mv history04.txt ~/Área\ de\ Trabalho/
+  441  ls
+  442  cd ..
+  443  ls
+  444  cd class-04/
+  445  ls
+  446  cd ..
+  447  ls
+  448  sudo rm -d class-04/
+  449  sudo rm -f class-04/
+  450  sudo rmdir -f class-04/
+  451  man rmdir
+  452  sudo rm -rf class-04/
+  453  ls
+  454  clear
+  455  class-04
+  456  mkdir class-04
+  457  cd class-04/
+  458  ls
+  459  cd ..
+  460  mv history04.txt  ~/Área\ de\ Trabalho/class-04/
+  461  cd class-04/
+  462  ls
+  463  git init
+  464  git add *
+  465  ls
+  466  git commit -m "class04"
+  467  git config user.email "igorldepaula@gmail.com"
+  468  git commit -m "class04"
+  469  git remote add origin https://github.com/igorldep/Shell-Script
+  470  git push
+  471  git push -u origin master
+  472  git remote rm origin 
+  473  git remote add origin https://github.com/igorldep/Shell-Scrip
+  474  git push origin master
+  475  git remote add origin https://github.com/igorldep/Shell-Script
+  476  git push origin master
+  477  git remote add origin https://github.com/igorldep/Shell-Script/tree/master/Special-Topics-of-Computer-Programming
+  478  cd ..
+  479  ls
+  480  git clone https://github.com/igorldep/Shell-Script
+  481  ls
+  482  mv class-04/ Shell-Script/
+  483  ls
+  484  cd Shell-Script/
+  485  ls
+  486  mv class-04/ Special-Topics-of-Computer-Programming-Linux-Programming/
+  487  ls
+  488  cd S
+  489  cd Special-Topics-of-Computer-Programming-Linux-Programming/
+  490  ls
+  491  cd ..
+  492  ls
+  493  git add *
+  494  git commit -m "4"
+  495  git config --global user.email "igorldepaula@gmail.com"
+  496  git commit -m "4"
+  497  git remote rm origin
+  498  git remote add origin https://github.com/igorldep/Shell-Scrip
+  499  git push origin master 
+  500  git remote rm origin
+  501  git remote add origin
+  502  git remote add origin https://github.com/igorldep/Shell-Script
+  503  git push origin master
+  504  git init
+  505  git add *
+  506  git commit -m "4"
+  507  git commit -m "four"
+  508  git remote add https://github.com/igorldep/Shell-Script/
+  509  git remote rm origin
+  510  git remote add origin https://github.com/igorldep/Shell-Script/
+  511  git push origin master
+  512  ls
+  513  cd Special-Topics-of-Computer-Programming-Linux-Programming/
+  514  ls
+  515  cd ..
+  516  ls
+  517  git inti 
+  518  git init
+  519  git add *
+  520  git commit -m "exclui4"
+  521  git remote rm origin
+  522  git remote add origin https://github.com/igorldep/Shell-Script
+  523  git push -u origin master
+  524  git add *
+  525  git commit -m "four4"
+  526  git remote add origin https://github.com/igorldep/Shell-Script
+  527  git push -u origin master
+  528  cd
+  529  ls
+  530  cd ..
+  531  ls
+  532  cd aluno/
+  533  ls
+  534  power off
+  535  poweroff
+  536  /libs/modulos
+  537  cd /
+  538  ls
+  539  /lib/modulos
+  540  /lib/modulo
+  541  /lib/modulos
+  542  cd lib
+  543  çs
+  544  cd lib
+  545  ls
+  546  /lib/modules
+  547  cd /lib/modules
+  548  ls
+  549  cd 4.10.0-28-generic/
+  550  ls
+  551  kernel
+  552  ./kernel
+  553  build
+  554  ls
+  555  cd kernel
+  556  ls
+  557  cd kernel
+  558  ls
+  559  cd time
+  560  ls
+  561  cd /
+  562  ismod
+  563  insmod
+  564  kmod
+  565  moinfo
+  566  top
+  567  clear
+  568  scan
+  569  id
+  570  ps
+  571  ps -t
+  572  man ps
+  573  ps
+  574  ps -x
+  575  ps aux
+  576  man ps
+  577  top
+  578  man top
+  579  htop
+  580  Htop
+  581  xlogo
+  582  python
+  583  xlogo &
+  584  man xlogo
+  585  xlogo &
+  586  jobs
+  587  bg 1
+  588  fg 1
+  589  bg 1
+  590  fg 1
+  591  jobs
+  592  bg1
+  593  bg 1
+  594  fg 1
+  595  xlogo &
+  596  kill 2672
+  597  ~
+  598  man ~
+  599  ~
+  600  -
+  601  line
+  602  lines
+  603  colines
+  604  coline
+  605  man line
+  606  make run
+  607  javac
+  608  lsb_release 
+  609  lsb_release -a
+  610  java -version
+  611  make run
+  612  ls -la
+  613  vim Makefile
+  614  gcc -o main -I. -lgult -lGLU -lGLEW -lGL
+  615  gcc -o main -I. -lglut -lGLU -lGLEW -lGL
+  616  cd ..
+  617  gcc -o main -I. -lglut -lGLU -lGLEW -lGL
+  618  gcc -o main main.c -I. -lglut -lGLU -lGLEW -lGL
+  619  ./main
+  620  chmod +x main
+  621  ./main
+  622  make run
+  623  ./main
+  624  make run
+  625  ./main
+  626  make run
+  627  ./main
+  628  make run
+  629  cd ..
+  630  make run
+  631  vim Makefile
+  632  make run
+  633  make
+  634  make run
+  635  #input output erro
+  636  tty
+  637  #pidof
+  638  pidof magic
+  639  ps aux
+  640  vim hello.cpp
+  641  g++ hello.cpp 
+  642  ./a.out
+  643  ./a.out >> outputt.txt
+  644  cat outputt.txt 
+  645  cat
+  646  cat > outinatxt.txt
+  647  cat outinatxt.txt 
+  648  pidof cat
+  649  cd /proc/3028
+  650  ls -la
+  651  cd fd
+  652  ls -la
+  653  pidof cat
+  654  cd /proc/3029
+  655  cd fd
+  656  ls -la
+  657  pidof cat
+  658  cd /proc/4007/
+  659  cd fd
+  660  ls -la
+  661  #output in a .txt
+  662  cd
+  663  vim hello.cpp 
+  664  cp hello.cpp program.cpp
+  665  vim program.cpp 
+  666  g++ program.cpp 
+  667  ./a.out 
+  668  cat > input.txt
+  669  ./a.out < input.txt 
+  670  cat < input.txt
+  671  cat input.txt 
+  672  echo "10" > input.txt 
+  673  cat input.txt 
+  674  touch tmp
+  675  set -o noclobber
+  676  echo "hi there" > tmp
+  677  set +o noclobber 
+  678  echo "hiiii
+" > tmp
+  679  cat tmp
+  680  # >|
+  681  echo "Isso é uma laranja" > laranja.txt
+  682  echo "Isso é um limão" > limao.txt
+  683  cat laranja.txt limao.txt > laranja.txt
+  684  cat laranja.txt 
+  685  #solution
+  686  echo "Isso é um limão" > limao.txt
+  687  cat limao.txt >> laranja.txt
+  688  cat laranja.txt
+  689  #/dev/null lixeira de bits
+  690  date > online.txt
+  691  cat online.txt
+  692  who >> online.txt
+  693  cat online.txt 
+  694  # >: manda e sobrescreve; >>: manda e combina
+  695  #combina*
+  696  cat > nomes.txt
+  697  cat nomes.txt 
+  698  sort < nomes.txt > ordenados.txt
+  699  cat nomes.txt 
+  700  cat ordenados.txt 
+  701  #bit bucket
+  702  cat /dev/null 
+  703  touch mensagens.txt
+  704  ls -l mensagens.txt 
+  705  cat /dev/null > mensagens.txt 
+  706  ls -l mensagens.txt 
+  707  # PIPES
+  708  echo "hi" > temp
+  709  cat < temp
+  710  rm temp
+  711  # with pipe
+  712  echo "hi" | cat
+  713  echo "hi"
+  714  man more
+  715  ls -l /etc | more
+  716  ls -l /etc | grep host
+  717  df -h | tee fs.txt | grep tpm
+  718  cat fs.txt 
+  719  #basename // dirname
+  720  cat > realexample.txt
+  721  cat realexample.txt 
+  722  echo "i need a job" > y
+  723  cat x
+  724  cat y
+  725  cat x y
+  726  cat x y > output
+  727  cat output
+  728  cat x y | tr '[a-z]' '[A-Z]'
+  729  cat y
+  730  cat x y 2> errput
+  731  cat errput 
+  732  cat x y 1> output 2>errput 
+  733  cat output
+  734  cat errput 
+  735  cat x y &>all
+  736  cat all 
+  737  cat x y 1> output 2>&1
+  738  cat output
+  739  cat x y 2>&1 | tr '[a-z]' '[A-Z]’
+
+  740  cat x y 2>&1 | tr '[a-z]' '[A-Z]’
+  741  vim msg.sh
+  742  cat msg.sh 
+  743  chmod +x msg.sh
+  744  ./msg.sh 
+  745  #HERE
+  746  vim sorttt.sh
+  747  chmod +x sorttt.sh 
+  748  ./sorttt.sh 
+  749  cat << EOF
+Directory: $PWD
+EOF
+
+  750  cat << 'E'OF
+Directory: $PWD
+EOF
+
+  751  cat <<- END
+Text haha
+END
+
+  752  cat >> sumary.txt
+  753  pwd
+  754  ls 
+  755  mkdir aula6; mv *.txt ./aula6
+  756  ls
+  757  clear
+  758  cd Área\ de\ Trabalho/
+  759  cd aula6/
+  760  history
+  761  history >> comands.txt
