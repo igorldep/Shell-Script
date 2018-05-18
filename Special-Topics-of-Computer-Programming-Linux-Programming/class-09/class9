@@ -1,0 +1,239 @@
+user@user:~$ # Conditional Flow Structures
+user@user:~$ vim check_five
+user@user:~$ mv check_five check_five.sh
+user@user:~$ chmod +x check_five.sh 
+user@user:~$ ./check_five.sh 5
+x é igual a 5
+user@user:~$ ./check_five.sh 6
+x não é igual a 5
+user@user:~$ ./check_five.sh 7
+x não é igual a 5
+user@user:~$ x=10
+user@user:~$ if [ $x = 5]; then echo "x é igual a 5";
+> else echo "x não é igual a 5"; fi 
+bash: [: faltando `]'
+x não é igual a 5
+user@user:~$ if [ $x = 5 ]; then echo "x é igual a 5"; else echo "x não é igual a 5"; fi 
+x não é igual a 5
+user@user:~$ x=5
+user@user:~$ if [ $x = 5 ]; then echo "x é igual a 5"; else echo "x não é igual a 5"; fi 
+x é igual a 5
+user@user:~$ ls -d /usr/bin
+/usr/bin
+user@user:~$ echo $?
+0
+user@user:~$ ls -d /bin/usr
+ls: não é possível acessar '/bin/usr': Arquivo ou diretório não encontrado
+user@user:~$ echo $?
+2
+user@user:~$ true
+user@user:~$ echo $?
+0
+user@user:~$ false
+user@user:~$ echo $?
+1
+user@user:~$  if true; then echo "É verdade"; fi
+É verdade
+user@user:~$  if false; then echo "É verdade"; 
+> fi
+user@user:~$  if false; then echo "É verdade"; fi
+user@user:~$ echo $x
+5
+user@user:~$ test $x = 5
+user@user:~$ echo $?
+0
+user@user:~$ [ $x = 5 ]
+user@user:~$ echo $?
+0
+user@user:~$ x = 7
+x: comando não encontrado
+user@user:~$ x=7
+user@user:~$ test $x = 5
+user@user:~$ echo $?
+1
+user@user:~$ [ $x = 5 ]
+user@user:~$ echo $?
+1
+user@user:~$ 
+user@user:~$ #true = 0 ;;; false = 1
+user@user:~$ LS
+O programa 'LS' não está instalado no momento. Você pode instalá-lo digitando:
+sudo apt install sl
+user@user:~$ ls
+Área de Trabalho  code        Downloads  Modelos  Público            snap
+check_five.sh     Documentos  Imagens    Música   skype-install.deb  Vídeos
+user@user:~$ pwd
+/home/user
+user@user:~$ FILE=~/.check_five
+user@user:~$ [ -e "$FILE ]
+> 5
+> ^C
+user@user:~$ echo $?
+130
+user@user:~$ FILE=~/.
+./                         .ecryptfs/                 .nano/                     .thunderbird/
+../                        .gconf/                    .netbeans/                 .viminfo
+.bash_history              .gitconfig                 .pki/                      .wget-hsts
+.bash_logout               .gnome/                    .Private/                  .Xauthority
+.bashrc                    .gnupg/                    .profile                   .xsession-errors
+.cache/                    .ICEauthority              .Skype/                    .xsession-errors.old
+.codeblocks/               .java/                     .sudo_as_admin_successful  
+.compiz/                   .local/                    .teste.cpp.swp             
+.config/                   .mozilla/                  .texmf-var/                
+user@user:~$ FILE=~/.
+./                         .ecryptfs/                 .nano/                     .thunderbird/
+../                        .gconf/                    .netbeans/                 .viminfo
+.bash_history              .gitconfig                 .pki/                      .wget-hsts
+.bash_logout               .gnome/                    .Private/                  .Xauthority
+.bashrc                    .gnupg/                    .profile                   .xsession-errors
+.cache/                    .ICEauthority              .Skype/                    .xsession-errors.old
+.codeblocks/               .java/                     .sudo_as_admin_successful  
+.compiz/                   .local/                    .teste.cpp.swp             
+.config/                   .mozilla/                  .texmf-var/                
+user@user:~$ FILE=~/.bashrc
+user@user:~$ [ -e "$FILE ]
+5
+> ^C
+user@user:~$ [ -e "$FILE ]
+> ^C
+user@user:~$ [ -e "$FILE" ]
+user@user:~$ echo $?
+0
+user@user:~$ ANSWER=maybe
+user@user:~$  [ -z "$ANSWER" ] 
+user@user:~$ echo $?
+1
+user@user:~$ [ -n "$ANSWER" ] # Tem algum tamanho?
+user@user:~$ echo $?
+0
+user@user:~$ [ "$ANSWER" == "yes" ] # É igual a yes?
+user@user:~$ echo $?
+1
+user@user:~$  INT=-5
+user@user:~$  [ "$INT" -eq 0 ] # É igual a zero?
+user@user:~$ echo $?
+1
+user@user:~$  [ "$INT" -lt 0 ] # É negativo?
+user@user:~$ echo $?
+0
+user@user:~$ [ "$((INT % 2))" -eq 0 ] # É par?
+user@user:~$ echo $?
+1
+user@user:~$ INT=abc
+user@user:~$ [ "$INT" -eq 0 ] # É igual a zero?
+bash: [: abc: esperado expressão de número inteiro
+user@user:~$ echo $?
+2
+user@user:~$ INT=-5
+user@user:~$ [[ "$INT" =~ ^-?[0-9]+$ ]] # É número inteiro?
+user@user:~$ echo $?
+0
+user@user:~$ FILE=foo.bar
+user@user:~$ [[ "$FILE" == foo.* ]]
+user@user:~$ echo $?
+0
+user@user:~$ ((1)) # É verdade?
+user@user:~$ echo $?
+0
+user@user:~$ ((0)) # É falso?
+user@user:~$ echo $?
+1
+user@user:~$ INT=50
+user@user:~$ test "$INT" -ge 1 -a "$INT" -le 100
+user@user:~$ echo $?
+0
+user@user:~$ [ "$INT" -ge 1 -a "$INT" -le 100 ]
+user@user:~$ echo $?
+0
+user@user:~$ [[ "$INT" -ge 1 && "$INT" -le 100 ]]
+user@user:~$ echo $?
+0
+user@user:~$ [[ ! ("$INT" -ge 1 && "$INT" -le 100) ]]
+user@user:~$ echo $?
+1
+user@user:~$ [ ! \( "$INT" -ge 1 -a "$INT" -le 100 \) ]
+user@user:~$ echo $?
+1
+user@user:~$ vim if1.sh
+user@user:~$ chmod +x if1.sh 
+user@user:~$ ./if1.sh 
+word 1: apple
+word 2: peach
+End of program
+user@user:~$ ./if1.sh 
+word 1: apple
+word 2: apple
+End of program
+user@user:~$ vim if1.sh
+user@user:~$ ./if1.sh 
+word 1: apple
+word 2: apple
+!!MATCH!!
+End of program
+user@user:~$ vim chkargs.sh
+user@user:~$ chmod +x chkargs.sh 
+user@user:~$ ./ch
+check_five.sh  chkargs.sh     
+user@user:~$ ./chkargs.sh 
+Usar ./chkargs.sh [Agumento]
+user@user:~$ ./chkargs.sh abc
+Executando com 'abc'
+user@user:~$ ./chkargs.sh 123
+Executando com '123'
+user@user:~$ vim ifelse.sh
+user@user:~$ chmod +x ifelse.sh 
+user@user:~$ ./ifelse.sh
+is zero
+user@user:~$ ./ifelse.sh 8
+./ifelse.sh: linha 3: [: 8: esperado operador unário
+is not zero
+user@user:~$ ./ifelse.sh 1
+./ifelse.sh: linha 3: [: 1: esperado operador unário
+is not zero
+user@user:~$ ./ifelse.sh 0
+./ifelse.sh: linha 3: [: 0: esperado operador unário
+is not zero
+user@user:~$ vim ifelse.sh
+user@user:~$ ./ifelse.sh 1
+./ifelse.sh: linha 3: [: 1: esperado operador unário
+is not zero
+user@user:~$ vim ifelse.sh
+user@user:~$ ./ifelse.sh 0
+./ifelse.sh: linha 9: erro de sintaxe próximo do `token' não esperado `else'
+./ifelse.sh: linha 9: `else'
+user@user:~$ vim ifelse.sh
+user@user:~$ ./ifelse.sh 0
+is zero
+user@user:~$ ./ifelse.sh 4
+./ifelse.sh: linha 7: [: faltando `]'
+positive
+user@user:~$ vim ifelse.sh
+user@user:~$ ./ifelse.sh 4
+positive
+user@user:~$ ./ifelse.sh 0
+is zero
+user@user:~$ ./ifelse.sh -3
+negative
+user@user:~$ vim switch_case.sh
+user@user:~$ chmod +x switch_case.sh 
+user@user:~$ ./switch_case.sh 
+Enter A, B, or C: k
+You did not enter A, B or C
+user@user:~$ ./switch_case.sh 
+Enter A, B, or C: A 
+You entered A
+user@user:~$ ./switch_case.sh a
+Enter A, B, or C: a   
+You entered A
+user@user:~$ ./switch_case.sh
+Enter A, B, or C: c
+You entered C
+user@user:~$ ./switch_case.sh
+Enter A, B, or C: C
+You entered C
+user@user:~$ mkdir temp && cd temp
+user@user:~/temp$ cd ..
+user@user:~$ mkdir temp && cd temp
+mkdir: é impossível criar o diretório “temp”: Arquivo existe
+user@user:~$  [ -d temp ] || mkdir temp
+
