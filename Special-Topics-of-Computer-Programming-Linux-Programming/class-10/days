@@ -1,0 +1,6 @@
+#! /bin/bash
+
+for days in "Mon (weekday)" "Tue (weekday)" "Wed (weekday)" "Thu (weekday)" "Fri (weekday)" "Sat (weekend)" "Sun (weekend)"; do
+	echo "$days"
+done
+
