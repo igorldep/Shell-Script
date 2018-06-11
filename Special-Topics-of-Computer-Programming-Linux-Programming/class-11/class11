@@ -1,0 +1,90 @@
+ 2009  # Regular Expression
+ 2010  # usada para identificar padrões em textos
+ 2011  ls /usr/bin | grep zip
+ 2012  # grep: global regular expression print
+ 2013  ls /usr/bin | grep -c  zip
+ 2014  ls /usr/bin | grep zip | wc -l
+ 2015  ls /usr/bin | grep zip
+ 2016  ls /usr/bin | grep -l zip
+ 2017  ls /usr/bin | grep -n zip
+ 2018  ls /bin > dirlist-bin.txt
+ 2019  ls
+ 2020  cat dirlist-bin.txt 
+ 2021  ls /usr/bin > dirlist-usr-bin.txt
+ 2022  ls /sbin > dirlist-sbin.txt
+ 2023  ls /usr/sbin > dirlist-usr-sbin.txt
+ 2024  ls dirlist*.txt
+ 2025  ls
+ 2026  cat dirlist-sbin.txt 
+ 2027  clear
+ 2028  ls
+ 2029  grep /ring/ dirlist-bin.txt 
+ 2030  ls
+ 2031  cat dirlist-bin.txt | grep /zip/
+ 2032  cat dirlist-bin.txt | grep zip
+ 2033  cat dirlist-bi.*
+ 2034  cat dirlist-bi*
+ 2035  cat dirlist-.in*
+ 2036  grep -h '.zip' dirlist*.txt
+ 2037  grep -h '[bg]zip' dirlist*.txt
+ 2038  grep -h '[^bg]zip' dirlist*.txt
+ 2039  grep -h '[A-Z]' dirlist*.txt
+ 2040  grep -h '[:lower:]' dirlist*.txt
+ 2041  grep -h ':lower:' dirlist*.txt
+ 2042  grep -h 'lower' dirlist*.txt
+ 2043  # ^  $
+ 2044  grep -h '^zip' dirlist*.txt
+ 2045  grep -h 'zip$' dirlist*.txt
+ 2046  grep -h '^zip$' dirlist*.txt
+ 2047  grep -h '\[' dirlist*.txt
+ 2048  grep -h '\a' dirlist*.txt
+ 2049  grep -h '/a\' dirlist*.txt
+ 2050  grep -h 'up.*e' dirlist*.txt
+ 2051* grep -h '.' dirlist*.txt
+ 2052  echo $SHELL
+ 2053  echo $SHELL | grep "[^/]*sh$"
+ 2054  echo $SHELL | grep "*sh"
+ 2055  echo $SHELL | grep "[^/]*sh"
+ 2056  echo $SHELL | grep "*sh"
+ 2057  echo $SHELL | grep "*sh$"
+ 2058  echo $SHELL | grep "[^/]*sh"
+ 2059  echo $SHELL | sed "s:[^/]*sh$:__&__:"
+ 2060  echo $SHELL | sed "s:[^/]*sh$:__&|*_:"
+ 2061  echo $SHELL | sed "s:[^/]*sh$:__&__:"
+ 2062  echo $SHELL | sed "s:[^/]*sh$:this is my bash__&__:"
+ 2063  echo $SHELL | grep "[^/]*sh$"
+ 2064  echo $SHELL | grep "^/*sh$"
+ 2065  echo $SHELL | grep "[]*sh$"
+ 2066  echo $SHELL | grep "[^]*sh$"
+ 2067  echo $SHELL | grep "[^/]*sh$"
+ 2068  cat >>  megadeth.txt
+ 2069  cat >  megadeth.txt
+ 2070  cat megadeth.txt 
+ 2071  cat megadeth.txt | sed "s/\"
+ 2072  cat megadeth.txt | sed "s/\([^,]*\)"
+ 2073  cat megadeth.txt | sed "s/\([^,]*\), \(.*\)/\2 \1/"
+ 2074  cat megadeth.txt | sed "s/\([^,]*\), \(.*\)/\1 \1/"
+ 2075  cat megadeth.txt | sed "s/\([^,]*\), \(.*\)/\2 hihihi \1/"
+ 2076  echo "AAA" | grep -E "AAA|BBB"
+ 2077  echo "BBB" | grep -E "AAA|BBB"
+ 2078  echo "AAA" | grep -E "AAA|BBB|CCC"
+ 2079  grep -Eh '^(bz|gz|zip)' dirlist*.txt
+ 2080  echo "(31) 1234-5678" | grep -E '^\(?[0-9][0-9]\)? [0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]$'
+ 2081  echo "31 1234-5678" | grep -E '^\(?[0-9][0-9]\)? [0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]$'
+ 2082  #?: opcional
+ 2083  echo "31 12assas34-5678" | grep -E '^\(?[0-9][0-9]\)? [0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]$'
+ 2084  echo "This works." | grep -E '[[:upper:]] [ [:upper:][:lower:] ]*\.'
+ 2085  echo "This works." | grep -E '[[:upper:]] [[:upper:][:lower:] ]*\.'
+ 2086  echo "This works." | grep -E '[[:upper:]] [[:upper:][:lower:]]*\.'
+ 2087  echo "This works." | grep -E '[[:upper:]][[:upper:][:lower:]]*\.'
+ 2088  echo "This works." | grep -E '[[:upper:]][[:upper:][:lower:] ]*\.'
+ 2089  echo "This Works." | grep -E '[[:upper:]][[:upper:][:lower:] ]*\.'
+ 2090  echo "this does not" | grep -E '[[:upper:]][[:upper:][:lower:] ]*\.'
+ 2091  echo "This that" | grep -E '^([[:alpha:]]+ ?)+$'
+ 2092  echo "a b c" | grep -E '^([[:alpha:]]+ ?)+$'
+ 2093  echo "a b 9" | grep -E '^([[:alpha:]]+ ?)+$'
+ 2094  echo "abc d" | grep -E '^([[:alpha:]]+ ?)+$'
+ 2095  echo "(31) 1234-5678" | grep -E '^\(?[0-9]{2}\)? [0-9]{4}-[0-9]{4}$'
+ 2096  echo "031 1234-5678" | grep -E '^\(?[0-9]{2}\)? [0-9]{4}-[0-9]{4}$'
+ 2097  history 
+ 2098  history >> class10
