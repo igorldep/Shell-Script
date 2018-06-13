@@ -1,0 +1,1 @@
+cat telefones.txt | grep -E '^\(..\) ....-....$'
