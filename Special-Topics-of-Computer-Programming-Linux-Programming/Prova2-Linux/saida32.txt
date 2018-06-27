@@ -1,0 +1,79 @@
+Phase with groups
+  Group 1: 
+    1: Inglaterra
+    2: Nigéria
+    3: Suíça
+    4: Rússia
+
+  Group 2: 
+    1: Brasil
+    2: Peru
+    3: Islândia
+    4: Costa Rica
+
+  Group 3: 
+    1: Marrocos
+    2: Dinamarca
+    3: Irã
+    4: Portugal
+
+  Group 4: 
+    1: Argentina
+    2: Alemanha
+    3: Panamá
+    4: Uruguai
+
+  Group 5: 
+    1: Tunísia
+    2: Japão
+    3: Arábia Saudita
+    4: Coreia do Sul
+
+  Group 6: 
+    1: Espanha
+    2: México
+    3: Colômbia
+    4: Sérvia
+
+  Group 7: 
+    1: Senegal
+    2: Suécia
+    3: França
+    4: Polônia
+
+  Group 8: 
+    1: Austrália
+    2: Egito
+    3: Croácia
+    4: Bélgica
+
+Phase with 16 teams
+  Side A
+    Inglaterra vs Peru [winner: Peru]
+    Marrocos vs Alemanha [winner: Alemanha]
+    Tunísia vs México [winner: Tunísia]
+    Senegal vs Egito [winner: Senegal]
+  Side B
+    Brasil vs Nigéria [winner: Brasil]
+    Argentina vs Dinamarca [winner: Argentina]
+    Espanha vs Japão [winner: Espanha]
+    Austrália vs Suécia [winner: Suécia]
+
+Phase with 8 teams
+  Side A
+    Peru vs Alemanha [winner: Peru]
+    Tunísia vs Senegal [winner: Tunísia]
+  Side B
+    Brasil vs Argentina [winner: Brasil]
+    Espanha vs Suécia [winner: Suécia]
+
+Phase with 4 teams
+  Side A
+    Peru vs Tunísia [winner: Peru]
+  Side B
+    Brasil vs Suécia [winner: Brasil]
+
+Results:
+  Champion: Brasil
+  2nd: Peru
+  3rd: Tunísia

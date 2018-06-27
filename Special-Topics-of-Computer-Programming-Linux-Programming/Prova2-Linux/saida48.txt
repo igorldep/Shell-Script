@@ -1,0 +1,131 @@
+Phase with groups
+  Group 1: 
+    1: França
+    2: Sérvia
+    3: Escócia
+
+  Group 2: 
+    1: Irlanda
+    2: Paraguai
+    3: México
+
+  Group 3: 
+    1: Chile
+    2: Tunísia
+    3: Gana
+
+  Group 4: 
+    1: Egito
+    2: Colômbia
+    3: Uruguai
+
+  Group 5: 
+    1: Inglaterra
+    2: Bélgica
+    3: Jamaica
+
+  Group 6: 
+    1: Rússia
+    2: Alemanha
+    3: Brasil
+
+  Group 7: 
+    1: Japão
+    2: Costa Rica
+    3: Polônia
+
+  Group 8: 
+    1: Argentina
+    2: Turquia
+    3: Croácia
+
+  Group 9: 
+    1: Espanha
+    2: Arábia Saudita
+    3: Coreia do Sul
+
+  Group 10: 
+    1: Austrália
+    2: Peru
+    3: Itália
+
+  Group 11: 
+    1: Estados Unidos
+    2: Senegal
+    3: Nigéria
+
+  Group 12: 
+    1: Islândia
+    2: Bulgária
+    3: Noruega
+
+  Group 13: 
+    1: Camarões
+    2: Honduras
+    3: Suécia
+
+  Group 14: 
+    1: Panamá
+    2: Romênia
+    3: Portugal
+
+  Group 15: 
+    1: Costa do Marfim
+    2: Irã
+    3: Marrocos
+
+  Group 16: 
+    1: China
+    2: Suíça
+    3: Dinamarca
+
+Phase with 32 teams
+  Side A
+    França vs Paraguai [winner: Paraguai]
+    Chile vs Colômbia [winner: Chile]
+    Inglaterra vs Alemanha [winner: Inglaterra]
+    Japão vs Turquia [winner: Japão]
+    Espanha vs Peru [winner: Peru]
+    Estados Unidos vs Bulgária [winner: Bulgária]
+    Camarões vs Romênia [winner: Romênia]
+    Costa do Marfim vs Suíça [winner: Costa do Marfim]
+  Side B
+    Irlanda vs Sérvia [winner: Irlanda]
+    Egito vs Tunísia [winner: Tunísia]
+    Rússia vs Bélgica [winner: Bélgica]
+    Argentina vs Costa Rica [winner: Costa Rica]
+    Austrália vs Arábia Saudita [winner: Austrália]
+    Islândia vs Senegal [winner: Islândia]
+    Panamá vs Honduras [winner: Panamá]
+    China vs Irã [winner: China]
+
+Phase with 16 teams
+  Side A
+    Paraguai vs Chile [winner: Chile]
+    Inglaterra vs Japão [winner: Japão]
+    Peru vs Bulgária [winner: Bulgária]
+    Romênia vs Costa do Marfim [winner: Costa do Marfim]
+  Side B
+    Irlanda vs Tunísia [winner: Tunísia]
+    Bélgica vs Costa Rica [winner: Bélgica]
+    Austrália vs Islândia [winner: Austrália]
+    Panamá vs China [winner: China]
+
+Phase with 8 teams
+  Side A
+    Chile vs Japão [winner: Japão]
+    Bulgária vs Costa do Marfim [winner: Costa do Marfim]
+  Side B
+    Tunísia vs Bélgica [winner: Bélgica]
+    Austrália vs China [winner: China]
+
+Phase with 4 teams
+  Side A
+    Japão vs Costa do Marfim [winner: Japão]
+  Side B
+    Bélgica vs China [winner: Bélgica]
+
+Results:
+  Champion: Japão
+  2nd: Bélgica
+  3rd: China
