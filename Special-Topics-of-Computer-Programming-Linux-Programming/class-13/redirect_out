@@ -1,0 +1,3 @@
+/chevy/ {print > "chevfile"}
+/ford/  {print > "fordfile"}
+END     {print "done."}

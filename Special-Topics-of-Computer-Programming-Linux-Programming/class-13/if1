@@ -1,0 +1,7 @@
+BEGIN {
+	nam="Igor"
+	if (nam == "Luciano")
+		print "nam is Luciano"
+	else
+		print "nam is not Luciano, it is", nam
+}

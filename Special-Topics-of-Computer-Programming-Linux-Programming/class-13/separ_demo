@@ -1,0 +1,6 @@
+#!/bin/awk -f
+{
+	if ($2 ~ /ply/) $2 = "plymouth"
+	if ($2 ~ /chev/) $2 = "chevrolet"
+	print
+}
